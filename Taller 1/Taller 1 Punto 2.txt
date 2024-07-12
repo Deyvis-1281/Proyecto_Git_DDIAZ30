@@ -1,0 +1,11 @@
+2.Desarrolle un algoritmo que realice la sumatoria de los números enteros comprendidos entre el 1 y el 10, es decir, 1 + 2 + 3 + …. + 10.
+
+Inicio
+Declaro variables A, B, sum int
+Inicio las variables A = 1, B = 1, sum = 0
+declaro un ciclo for (B = 1;  B <= 10; B ++)
+realizo la suma de los registros sum = (A + B)
+Escribir en pantalla "la suma de los 10 numeros enteros es: ", sum
+Fin 
+
+
