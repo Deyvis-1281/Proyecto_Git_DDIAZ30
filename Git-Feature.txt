@@ -1,0 +1,263 @@
+Taller git
+https://github.com/Deyvis-1281/Proyecto_Git_DDIAZ30.git
+
+
+DDIAZ30@OCDDIAZ30 MINGW64 /
+$ pwd
+/
+
+DDIAZ30@OCDDIAZ30 MINGW64 /
+$ cd d
+
+DDIAZ30@OCDDIAZ30 MINGW64 /d
+$ cd app
+
+DDIAZ30@OCDDIAZ30 MINGW64 /d/app
+$ cd Repositorio_Git
+
+DDIAZ30@OCDDIAZ30 MINGW64 /d/app/Repositorio_Git
+$ cd Proyecto_Git_DDIAZ30
+
+DDIAZ30@OCDDIAZ30 MINGW64 /d/app/Repositorio_Git/Proyecto_Git_DDIAZ30
+$ pwd
+/d/app/Repositorio_Git/Proyecto_Git_DDIAZ30
+
+DDIAZ30@OCDDIAZ30 MINGW64 /d/app/Repositorio_Git/Proyecto_Git_DDIAZ30
+$ git init
+hint: Using 'master' as the name for the initial branch. This default branch name
+hint: is subject to change. To configure the initial branch name to use in all
+hint: of your new repositories, which will suppress this warning, call:
+hint:
+hint:   git config --global init.defaultBranch <name>
+hint:
+hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+hint: 'development'. The just-created branch can be renamed via this command:
+hint:
+hint:   git branch -m <name>
+Initialized empty Git repository in D:/app/Repositorio_Git/Proyecto_Git_DDIAZ30/.git/
+
+DDIAZ30@OCDDIAZ30 MINGW64 /d/app/Repositorio_Git/Proyecto_Git_DDIAZ30 (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Taller-Git.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+DDIAZ30@OCDDIAZ30 MINGW64 /d/app/Repositorio_Git/Proyecto_Git_DDIAZ30 (master)
+$ git add.
+git: 'add.' is not a git command. See 'git --help'.
+
+The most similar command is
+        add
+
+DDIAZ30@OCDDIAZ30 MINGW64 /d/app/Repositorio_Git/Proyecto_Git_DDIAZ30 (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Taller-Git.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+DDIAZ30@OCDDIAZ30 MINGW64 /d/app/Repositorio_Git/Proyecto_Git_DDIAZ30 (master)
+$ git add
+Nothing specified, nothing added.
+hint: Maybe you wanted to say 'git add .'?
+hint: Disable this message with "git config advice.addEmptyPathspec false"
+
+DDIAZ30@OCDDIAZ30 MINGW64 /d/app/Repositorio_Git/Proyecto_Git_DDIAZ30 (master)
+$ git add .
+
+DDIAZ30@OCDDIAZ30 MINGW64 /d/app/Repositorio_Git/Proyecto_Git_DDIAZ30 (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   Taller-Git.txt
+
+
+DDIAZ30@OCDDIAZ30 MINGW64 /d/app/Repositorio_Git/Proyecto_Git_DDIAZ30 (master)
+$ git commit -m "Prueba 1"
+[master (root-commit) a52e767] Prueba 1
+ 1 file changed, 1 insertion(+)
+ create mode 100644 Taller-Git.txt
+
+DDIAZ30@OCDDIAZ30 MINGW64 /d/app/Repositorio_Git/Proyecto_Git_DDIAZ30 (master)
+$ git config --global user.email dasdo1@gmail.com
+
+DDIAZ30@OCDDIAZ30 MINGW64 /d/app/Repositorio_Git/Proyecto_Git_DDIAZ30 (master)
+$ git config --global user.email foxandres1281@gmail.com
+
+DDIAZ30@OCDDIAZ30 MINGW64 /d/app/Repositorio_Git/Proyecto_Git_DDIAZ30 (master)
+$ git config --global user.name "Deyvis-1281"
+
+DDIAZ30@OCDDIAZ30 MINGW64 /d/app/Repositorio_Git/Proyecto_Git_DDIAZ30 (master)
+$ git config --global user.email
+foxandres1281@gmail.com
+
+DDIAZ30@OCDDIAZ30 MINGW64 /d/app/Repositorio_Git/Proyecto_Git_DDIAZ30 (master)
+$ git config --global user.name
+Deyvis-1281
+
+DDIAZ30@OCDDIAZ30 MINGW64 /d/app/Repositorio_Git/Proyecto_Git_DDIAZ30 (master)
+$ git config --list
+core.symlinks=false
+core.autocrlf=true
+core.fscache=true
+color.interactive=true
+color.ui=auto
+help.format=html
+diff.astextplain.textconv=astextplain
+rebase.autosquash=true
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+credential.helper=helper-selector
+user.name=Deyvis-1281
+user.email=foxandres1281@gmail.com
+core.repositoryformatversion=0
+core.filemode=false
+core.bare=false
+core.logallrefupdates=true
+core.symlinks=false
+core.ignorecase=true
+
+DDIAZ30@OCDDIAZ30 MINGW64 /d/app/Repositorio_Git/Proyecto_Git_DDIAZ30 (master)
+$ git branch -M main
+
+DDIAZ30@OCDDIAZ30 MINGW64 /d/app/Repositorio_Git/Proyecto_Git_DDIAZ30 (main)
+$ git remote add origin https://github.com/Deyvis-1281/Proyecto_Git_DDIAZ30.git
+
+DDIAZ30@OCDDIAZ30 MINGW64 /d/app/Repositorio_Git/Proyecto_Git_DDIAZ30 (main)
+$ git push -u origin main
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 232 bytes | 29.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/Deyvis-1281/Proyecto_Git_DDIAZ30.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
+DDIAZ30@OCDDIAZ30 MINGW64 /d/app/Repositorio_Git/Proyecto_Git_DDIAZ30 (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Taller 1/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+DDIAZ30@OCDDIAZ30 MINGW64 /d/app/Repositorio_Git/Proyecto_Git_DDIAZ30 (main)
+$ git add .
+warning: in the working copy of 'Taller 1/Taller 1 Punto 1.drawio', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Taller 1/Taller 1 Punto 2.drawio', LF will be replaced by CRLF the next time Git touches it
+
+DDIAZ30@OCDDIAZ30 MINGW64 /d/app/Repositorio_Git/Proyecto_Git_DDIAZ30 (main)
+$ ^C
+
+DDIAZ30@OCDDIAZ30 MINGW64 /d/app/Repositorio_Git/Proyecto_Git_DDIAZ30 (main)
+$ git branch -M main
+
+DDIAZ30@OCDDIAZ30 MINGW64 /d/app/Repositorio_Git/Proyecto_Git_DDIAZ30 (main)
+$ git push -u origin main
+Everything up-to-date
+branch 'main' set up to track 'origin/main'.
+
+DDIAZ30@OCDDIAZ30 MINGW64 /d/app/Repositorio_Git/Proyecto_Git_DDIAZ30 (main)
+$ ^C
+
+DDIAZ30@OCDDIAZ30 MINGW64 /d/app/Repositorio_Git/Proyecto_Git_DDIAZ30 (main)
+$ $ git remote add origin https://github.com/Deyvis-1281/Proyecto_Git_DDIAZ30.git
+bash: $: command not found
+
+DDIAZ30@OCDDIAZ30 MINGW64 /d/app/Repositorio_Git/Proyecto_Git_DDIAZ30 (main)
+$ git remote add origin https://github.com/Deyvis-1281/Proyecto_Git_DDIAZ30.git
+error: remote origin already exists.
+
+DDIAZ30@OCDDIAZ30 MINGW64 /d/app/Repositorio_Git/Proyecto_Git_DDIAZ30 (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   Taller 1/Taller 1 Punto 1.drawio
+        new file:   Taller 1/Taller 1 Punto 1.drawio.png
+        new file:   Taller 1/Taller 1 Punto 2.drawio
+        new file:   Taller 1/Taller 1 Punto 2.drawio.png
+        new file:   Taller 1/Taller 1 Punto 2.txt
+
+
+DDIAZ30@OCDDIAZ30 MINGW64 /d/app/Repositorio_Git/Proyecto_Git_DDIAZ30 (main)
+$ git add .
+
+DDIAZ30@OCDDIAZ30 MINGW64 /d/app/Repositorio_Git/Proyecto_Git_DDIAZ30 (main)
+$ git commit -m "Primer Taller"
+[main 62152b8] Primer Taller
+ 5 files changed, 223 insertions(+)
+ create mode 100644 Taller 1/Taller 1 Punto 1.drawio
+ create mode 100644 Taller 1/Taller 1 Punto 1.drawio.png
+ create mode 100644 Taller 1/Taller 1 Punto 2.drawio
+ create mode 100644 Taller 1/Taller 1 Punto 2.drawio.png
+ create mode 100644 Taller 1/Taller 1 Punto 2.txt
+
+DDIAZ30@OCDDIAZ30 MINGW64 /d/app/Repositorio_Git/Proyecto_Git_DDIAZ30 (main)
+$ git push -u origin main
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (8/8), done.
+Writing objects: 100% (8/8), 50.00 KiB | 5.55 MiB/s, done.
+Total 8 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/Deyvis-1281/Proyecto_Git_DDIAZ30.git
+   a52e767..62152b8  main -> main
+branch 'main' set up to track 'origin/main'.
+
+DDIAZ30@OCDDIAZ30 MINGW64 /d/app/Repositorio_Git/Proyecto_Git_DDIAZ30 (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   Taller-Git.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+DDIAZ30@OCDDIAZ30 MINGW64 /d/app/Repositorio_Git/Proyecto_Git_DDIAZ30 (main)
+$ git add .
+
+DDIAZ30@OCDDIAZ30 MINGW64 /d/app/Repositorio_Git/Proyecto_Git_DDIAZ30 (main)
+$ git commit -m "Actualizacion Taller-Git"
+[main 183b0be] Actualizacion Taller-Git
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+DDIAZ30@OCDDIAZ30 MINGW64 /d/app/Repositorio_Git/Proyecto_Git_DDIAZ30 (main)
+$ git push -u origin main
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 360 bytes | 60.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/Deyvis-1281/Proyecto_Git_DDIAZ30.git
+   62152b8..183b0be  main -> main
+branch 'main' set up to track 'origin/main'.
+
+DDIAZ30@OCDDIAZ30 MINGW64 /d/app/Repositorio_Git/Proyecto_Git_DDIAZ30 (main)
+$
